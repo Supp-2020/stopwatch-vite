@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.stopwatch-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 250px;
+}
+
+.stopwatch-card h1 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.time-display {
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  color: white;
+}
+
+.btn.start {
+  background: #28a745;
+}
+
+.btn.start:hover {
+  background: #218838;
+}
+
+.btn.stop {
+  background: #dc3545;
+}
+
+.btn.stop:hover {
+  background: #c82333;
+}
+
+.btn.reset {
+  background: #6c757d;
+}
+
+.btn.reset:hover {
+  background: #5a6268;
+}
