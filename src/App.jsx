@@ -42,14 +42,14 @@ useEffect(() => {
   return (
     <div className="container">
       <div className="stopwatch-card">
-        <h1>Stopwatch</h1>
+        <h1>Stopwatch/Timer</h1>
         <div className="time-display">{formatTime()}</div>
         <div className="buttons">
           <button
             onClick={toggleTimer}
             className={isRunning ? "btn stop" : "btn start"}
           >
-            {isRunning ? "Stop" : "Start"}
+            {isRunning ? "Stop" : "Begin"}
           </button>
           <button onClick={resetTimer} className="btn reset">Reset</button>
         </div>
